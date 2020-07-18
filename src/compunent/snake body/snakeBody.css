@@ -1,0 +1,23 @@
+.grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+
+    border: 2px solid rgb(0, 0, 0);
+    width:10fr;
+    height:10fr;
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.body{
+    background: black;
+}
+
+.empty{
+    border: 1px solid gray;
+}
+

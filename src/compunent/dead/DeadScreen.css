@@ -1,0 +1,15 @@
+.deadScreen-container{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 2px solid rgb(0, 0, 0);
+    width:500px;
+    height:500px;
+
+    font-size: large;
+    font-weight: 600;
+
+    background: black;
+    color: white;
+}
