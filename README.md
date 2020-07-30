@@ -1,6 +1,6 @@
 # Snake js
 - 🐍 a Snake game built in react using react hooks
-- 🏃‍♂️ The game speed up as you eat more apples
+- 🏃‍♂️ The game speeds up as you eat more apples
 - ☠️ You die if you touch the edges
 - 🔳 Double tap on the Play Again to play
 
