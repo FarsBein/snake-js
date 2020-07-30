@@ -10,7 +10,7 @@ export default function DeadScreen({setDead}) {
                     Play
                 </button>   
             </div>
-            <p>Double tap on Play button</p>
+            <p>Double tap on the Play button</p>
         </div>
     )
 }
