@@ -9,7 +9,7 @@ Type "npm start" on the file directry on your terminal, a new window with the ga
 
 <img src="preview images/snake_1.JPG" width="300" height="300"/>
 
-The game will not wait and will start right away:) :
+The game will not wait and will start right away :) :
 
 <img src="preview images/snake_2.JPG" width="300" height="300"/>
 
