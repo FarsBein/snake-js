@@ -13,6 +13,6 @@ The game will not wait and will start right away:) :
 
 <img src="preview images/snake_2.JPG" width="300" height="300"/>
 
-When die you will see this screen:
+When you die you will see this screen:
 
 <img src="preview images/snake_3.JPG" width="300" height="300"/>
