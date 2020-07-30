@@ -4,7 +4,7 @@ import SnakeBody from '../snake body/SnakeBody'
 import DeadScreen from '../dead/DeadScreen'
 const boxSymbol = '■'
 
-export default function Box() {
+export default function Box({direction}) {
     const [grid,setGrid] = useState(undefined)
     const [dead,setDead] = useState(false)
 
@@ -33,16 +33,16 @@ export default function Box() {
             <div>
                 {
                     dead?
-                        <DeadScreen />
+                        <DeadScreen setDead={setDead}/>
                     :
-                        <SnakeBody grid={grid ? grid : []} setGrid={setGrid} setDead={setDead}/>
+                        <SnakeBody grid={grid ? grid : []} setGrid={setGrid} setDead={setDead} newDirection={direction}/>
                 }
             </div>  
-            <div>
+            {/* <div>
                 <button onClick={()=>setDead(false)}>
                     Play
                 </button>   
-            </div>          
+            </div>           */}
         </div>
 
     )
