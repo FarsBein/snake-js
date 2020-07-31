@@ -5,7 +5,7 @@
 - 🔳 Double tap on the Play button to play
 
 ## To Run Snake js
-Type "npm start" on the file directry on your terminal, a new window with the game will open:
+Type "npm start" on the file directry on your terminal, The game will run on http://localhost:3000/:
 
 <img src="preview images/snake_1.JPG" width="300" height="300"/>
 
