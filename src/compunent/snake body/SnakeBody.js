@@ -120,7 +120,7 @@ export default function SnakeBody({grid,setGrid,setDead}) {
     useEffect(() => {
         setTimeout(()=>{
             incrementVelocity(direction.current)
-        },2000-(score*10))
+        },200-(score*10))
         
     }, [snake])
     
